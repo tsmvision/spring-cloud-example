@@ -3,11 +3,9 @@ server:
 
 spring:
   application:
-    name: first-service
+    name: my-first-service
 
 eureka:
-  #  instance:
-  #    instance-id: ${spring.cloud.client.hostname}:${spring.application.instanceid}:${random.value}
   client:
     register-with-eureka: true
     fetch-registry: true
